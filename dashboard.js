@@ -48,7 +48,7 @@
    document.getElementById("logoutBtn").addEventListener("click", () => {
     signOut(auth).then(() => {
       // Sign-out successful, redirect to the login page
-      window.location.href = "/login.html";
+      window.location.href = "/index.html";
     }).catch((error) => {
       // An error happened during sign-out
       console.error("Sign-out error:", error);

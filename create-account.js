@@ -58,7 +58,7 @@ register.addEventListener("click", function (event) {
                     })
                     .then(() => {
                         alert("Account created. Please verify your email before logging in.");
-                        window.location.href = "login.html";
+                        window.location.href = "index.html";
                     })
                     .catch((error) => {
                         console.error("Error writing document: ", error);
