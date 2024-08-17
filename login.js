@@ -30,7 +30,7 @@ const sendEmailBtn = document.getElementById("send-magic-link");
 
 // Action code settings
 const actionCodeSettings = {
-  url: "http://127.0.0.1:5500/complete-signin.html",
+  url: "https://matriciq-magic-link-template.netlify.app/create-account",
   handleCodeInApp: true,
 };
 
