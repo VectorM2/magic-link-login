@@ -40,7 +40,7 @@
     } else {
       // User is not signed in, redirect to the registration page
       alert("Create Account & login");
-      window.location.href = "/register.html";
+      //window.location.href = "/register.html";
     }
   });
 
